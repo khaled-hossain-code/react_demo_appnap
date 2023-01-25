@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Declarative from './features/declarative/Declarative';
+import User from './features/declarative/User';
+import Customer from './features/hooks/Customer';
 
 function App() {
   return (
     <div className="App">
-      <Declarative />
+      {/* <User /> */}
+      <Customer />
     </div>
   );
 }
