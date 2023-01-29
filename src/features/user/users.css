@@ -1,0 +1,6 @@
+.user_container {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './user.css'
+import './promotion.css'
 
 function User() {
   const [user, setUser] = useState({firstName: 'Fida', lastName: 'Muntaseer', designation: 'Tech Lead'});

@@ -1,12 +1,14 @@
 import './App.css';
-import User from './features/declarative/User';
+import Promotion from './features/declarative/Promotion';
 import Customer from './features/customer/Customer';
+import Users from './features/user/Users';
 
 function App() {
   return (
     <div className="App">
-      <User />
+      {/* <Promotion /> */}
       {/* <Customer /> */}
+      <Users />
     </div>
   );
 }
