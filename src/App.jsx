@@ -5,8 +5,8 @@ import Customer from './features/customer/Customer';
 function App() {
   return (
     <div className="App">
-      {/* <User /> */}
-      <Customer />
+      <User />
+      {/* <Customer /> */}
     </div>
   );
 }
