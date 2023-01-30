@@ -8,13 +8,13 @@ import Users from "./features/users/Users";
 function App() {
   return (
     <div className="App">
-      {/* <Hello /> */}
-      <Promotion />
+      <Hello />
+      {/* <Promotion /> */}
 
       {/* <Customer /> */}
 
       {/* loading from api */}
-      {/* <Users />  */}
+      {/* <Users /> */}
     </div>
   );
 }

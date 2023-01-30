@@ -9,7 +9,7 @@ function User() {
   });
 
   return (
-    <div>
+    <div className="promotion-container">
       <h1>Your Name: {user.firstName}</h1>
       <h2>Designation: {user.designation}</h2>
       <button

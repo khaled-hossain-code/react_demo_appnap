@@ -1,3 +1,7 @@
+.promotion-container {
+  min-height: 300px;
+}
+
 .promotion-btn {
   display: inline-block;
   outline: none;
