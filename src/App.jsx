@@ -1,14 +1,20 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
-import Promotion from "./features/declarative/Promotion";
+import Hello from "./features/declarative/hello/Hello";
+import Promotion from "./features/declarative/promotion/Promotion";
 import Customer from "./features/customer/Customer";
 import Users from "./features/users/Users";
 
 function App() {
   return (
     <div className="App">
-      {/* <Promotion /> */}
+      {/* <Hello /> */}
+      <Promotion />
+
       {/* <Customer /> */}
-      <Users />
+
+      {/* loading from api */}
+      {/* <Users />  */}
     </div>
   );
 }
